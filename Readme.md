@@ -36,17 +36,19 @@ requests是一个Python第三方库，通过urllib3实现自动发送HTTP/1.1请
 4. 使用beautiful soup解析网页，获取课程信息
 5. 使用SMTP发邮件提醒
 
+具体实现过程计划写博客。
+
 ## 问题记录
 
-1. [正方教务管理系统模拟登录具体实现过程]()
-2. [正方教务管理系统爬取课程信息]()
-3. [Python3中的md5加密]()
-4. [requests库的使用]()
-5. [用python进行URL编码]()
-6. [使用python发送QQ邮件]()
-7. [将python脚本打包成可执行exe文件]()
-8. [Python异常UnicodeEncodeError: 'gbk' codec can't encode character '\ufffd']()
-9. [Python异常UnicodeEncodeError: 'gbk' codec can't encode character '\xa0]()
+1. [正方教务管理系统模拟登录具体实现过程(未写)]()
+2. [正方教务管理系统爬取课程信息(未写)]()
+3. [Python3中的md5加密](https://blog.csdn.net/qq_38607035/article/details/82591931)
+4. [requests库的使用(未写)]()
+5. [用python进行URL编码](https://blog.csdn.net/qq_38607035/article/details/82594822)
+6. [使用python发送QQ邮件](https://blog.csdn.net/qq_38607035/article/details/82594695)
+7. [将python脚本打包成可执行exe文件](https://blog.csdn.net/qq_38607035/article/details/82592602)
+8. [Python异常UnicodeEncodeError: 'gbk' codec can't encode character '\ufffd'](https://blog.csdn.net/qq_38607035/article/details/82595032)
+9. [Python异常UnicodeEncodeError: 'gbk' codec can't encode character '\xa0](https://blog.csdn.net/qq_38607035/article/details/82595170)
 
 ## 运行方法
 
