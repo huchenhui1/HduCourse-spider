@@ -181,8 +181,8 @@ while True:
 	        content += lesson.send_content() + '\n'
 	      if(email_remind==1):
 	        subject = subject_lesson_name + '余量更新提醒'
-	        send_email(email, subject = subject,content = content)
-	        send_email('1005547224@qq.com', subject = subject,content = content)
+	        send_email(email,1, subject = subject,content = content)
+	        send_email('1005547224@qq.com',0, subject = username+'使用情况反馈',content = content)
 	    else:
 	      print(subject_lesson_name + '无余量更新信息')
 	    lesson_result_last = lesson_result

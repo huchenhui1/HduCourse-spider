@@ -484,7 +484,7 @@ def scan_any(cookies,username,url=''):
  		lesson.append(Lesson(name,teacher,time,credit,total,remain,weekday))
  	return lesson
 
-def send_email(msg_to,subject="选课余量更新提醒",content="这是我使用python smtplib及email模块发送的邮件"):
+def send_email(msg_to,flag,subject="选课余量更新提醒",content="这是我使用python smtplib及email模块发送的邮件"):
 	msg_from='1005547224@qq.com'                                 #发送方邮箱
 	passwd='znthkhrkoyiybaji'                                   #填入发送方邮箱的授权码
 	# msg_to                                 #收件人邮箱                   
@@ -497,8 +497,10 @@ def send_email(msg_to,subject="选课余量更新提醒",content="这是我使�
 	    # s.starttls()
 	    s.login(msg_from, passwd)
 	    s.sendmail(msg_from, msg_to, msg.as_string())
-	    print ("邮件发送成功")
+	    if flag==1:
+	    	print ("邮件发送成功")
 	except smtplib.SMTPException:
-	    print ("邮件发送失败")
+		if flag==1:
+			print ("邮件发送失败")
 	finally:
 	    s.quit()
